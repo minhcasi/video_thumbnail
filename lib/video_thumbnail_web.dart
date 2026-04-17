@@ -189,7 +189,7 @@ class VideoThumbnailWeb extends VideoThumbnailPlatform {
           if (completer.isCompleted) return;
           final error = video.error;
           if (error == null) {
-            completer.completeError(const PlatformException(
+            completer.completeError(PlatformException(
               code: 'MEDIA_ERR_UNKNOWN',
               message: _kDefaultErrorMessage,
             ));
