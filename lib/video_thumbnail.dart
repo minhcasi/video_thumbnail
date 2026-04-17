@@ -1,6 +1,6 @@
 /// The Flutter plugin for creating thumbnail from video
 ///
-/// To use, import `package:video_thumbnail/video_thumbnail.dart`.
+/// To use, import `package:get_thumbnail_video/video_thumbnail.dart`.
 ///
 /// See also:
 ///
@@ -10,8 +10,8 @@ import 'dart:async';
 
 import 'package:cross_file/cross_file.dart';
 import 'package:flutter/services.dart';
-import 'package:video_thumbnail/src/image_format.dart';
-import 'package:video_thumbnail/src/video_thumbnail_platform.dart';
+import 'package:get_thumbnail_video/src/image_format.dart';
+import 'package:get_thumbnail_video/src/video_thumbnail_platform.dart';
 
 export 'package:cross_file/cross_file.dart' show XFile;
 
